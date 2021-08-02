@@ -7,8 +7,8 @@ function Main() {
     return (
         <main>
             <Switch>
-                <Route exact={true} path='/pokemons' component={Pokemons}/>
-                <Route exact={true} path='/pokemon/:name' component={Pokemon}/>
+                <Route exact path='/pokemons' component={Pokemons}/>
+                <Route path='/pokemon/:name' component={Pokemon}/>
             </Switch>
         </main>
     )

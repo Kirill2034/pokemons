@@ -38,9 +38,11 @@
     font-family: 'Roboto Condensed', sans-serif;
     font-weight: normal;
   }
-  .imageBox p {
-    color: rgba(255,255,255,0.9);
-    font-size: 14px;
-    margin-top: 20px;
+  .imageBox a {
+    color: rgba(226, 13, 13, 0.9);
+    font-size: 24px;
+    margin-left: 20px;
     line-height: 24px;
+    z-index: 2;
+    position: absolute;
   }
